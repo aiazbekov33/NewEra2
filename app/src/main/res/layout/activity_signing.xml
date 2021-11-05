@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@color/teal_700"
+    tools:context=".auth.SigningActivity">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/cat"
+        android:layout_gravity="center"
+        android:background="@drawable/oval_btn"
+        android:layout_margin="12dp" />
+
+    <EditText
+        android:id="@+id/code_ed"
+        android:layout_margin="12dp"
+        android:layout_width="350dp"
+        android:padding="15dp"
+        android:background="@drawable/oval_btn"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray"
+        android:hint="Смс - код"/>
+
+    <EditText
+    android:id="@+id/number_ed"
+    android:layout_margin="12dp"
+    android:layout_width="350dp"
+        android:padding="15dp"
+        android:background="@drawable/oval_btn"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:hint="Номер телефона"/>
+    <Button
+        android:id="@+id/apply_cod_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Получить код"
+        android:background="@drawable/new_btn_yellou"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/apply_number_btn"
+        android:layout_width="250dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Подтвердить код"
+        android:background="@drawable/new_btn_yellou"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

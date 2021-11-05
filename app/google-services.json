@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "796361289331",
+    "project_id": "newpro-4118d",
+    "storage_bucket": "newpro-4118d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796361289331:android:345231d206df9379798406",
+        "android_client_info": {
+          "package_name": "com.example.newera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796361289331-3fp3mp9g4qk6tmvoa4oh9qkq73p32itk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newera",
+            "certificate_hash": "42fdc997b262a957f696043f56de0b95f2102885"
+          }
+        },
+        {
+          "client_id": "796361289331-sdsohrgv6ltu1hfrtoh4r3ooe03kqe7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYcrK2v2OWo3oNZW_aU9oDyr26i85pFoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796361289331-sdsohrgv6ltu1hfrtoh4r3ooe03kqe7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

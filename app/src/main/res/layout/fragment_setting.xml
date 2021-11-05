@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/pic_iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="50dp"
+        android:src="@drawable/imgone"/>
+
+
+
+
+    <EditText
+        android:id="@+id/name_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/oval_btn"
+        android:drawableStart="@drawable/ic_perm"
+        android:drawablePadding="12dp"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pic_iv"
+ />
+
+    <EditText
+        android:id="@+id/email_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/oval_btn"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:padding="20dp"
+        android:layout_marginTop="18dp"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/name_ed" />
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/check_box"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:text="Remember me"-->
+<!--        android:textSize="15dp"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:checked="true"-->
+<!--        app:layout_constraintLeft_toLeftOf="@id/et_email"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/et_email"-->
+<!--        android:layout_height="wrap_content" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/text_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:drawableStart="@drawable/ic_lock"-->
+<!--        android:text="Forget Password"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="15dp"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/check_box"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/et_email"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_apply"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="70dp"
+        android:text="Принять"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/new_btn_yellou"
+        app:layout_constraintTop_toBottomOf="@id/email_ed"
+        android:layout_height="wrap_content"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_sing_up"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_marginHorizontal="70dp"-->
+<!--        android:text="SING UP"-->
+<!--        android:textSize="12dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginTop="18dp"-->
+<!--        android:background="@drawable/new_btn_yellou"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/btn_login"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="12dp"-->
+<!--    tools:context=".ui.setting.SettingFragment">-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/name_ed"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:hint="Имя"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/email_ed"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:hint="Email"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_apply"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Принять"/>-->
+
+
+
+<!--</LinearLayout>-->
