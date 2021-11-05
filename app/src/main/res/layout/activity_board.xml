@@ -4,62 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.newera.ui.boarding.BoardActivity">
+    android:background="@drawable/backgraund"
+    tools:context="com.example.newera.ui.boarding.OnBoardFragment">
+
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager_board"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-/>
+        android:layout_height="match_parent" />
 
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        app:layout_constraintLeft_toLeftOf="parent"-->
-<!--        android:background="@drawable/ic_forw"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        android:layout_height="wrap_content"/>-->
+    <RelativeLayout
+        android:id="@+id/RL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_wiwi__3_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
-<!--    <TextView-->
-<!--        android:id="@+id/skip_btn"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Skip"-->
-<!--        android:textSize="18sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textColor="@color/black"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="330dp"-->
-<!--        tools:layout_editor_absoluteY="650dp" />-->
+    <TextView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/back_btn"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:text="Back"-->
-<!--        android:textSize="18sp"-->
-<!--        tools:ignore="MissingConstraints"-->
-<!--        tools:layout_editor_absoluteX="30dp"-->
-<!--        tools:layout_editor_absoluteY="650dp" />-->
+    <TextView
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
 
-<!--    <com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator-->
-<!--        android:id="@+id/worm_dots_indicator"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/image_arrow"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        app:dotsColor="@color/white"-->
-<!--        app:dotsCornerRadius="8dp"-->
-<!--        app:dotsSize="16dp"-->
-<!--        app:dotsSpacing="4dp"-->
-<!--        app:dotsStrokeColor="@color/white"-->
-<!--        app:dotsStrokeWidth="2dp"-->
-<!--        tools:layout_editor_absoluteX="122dp"-->
-<!--        tools:layout_editor_absoluteY="624dp"-->
-<!--        tools:ignore="MissingConstraints,NotSibling" />-->
-
-
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
