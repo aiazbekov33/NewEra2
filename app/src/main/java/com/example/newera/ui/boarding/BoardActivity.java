@@ -8,12 +8,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.newera.auth.SigningActivity;
 import com.example.newera.databinding.ActivityBoardBinding;
+import com.example.newera.databinding.FragmentOnBoardBinding;
 import com.example.newera.utils.Constants;
 
 public class BoardActivity extends AppCompatActivity {
 
     private ActivityBoardBinding binding;
     boolean isShow = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

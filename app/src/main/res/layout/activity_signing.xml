@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="12dp"
-    android:background="@color/teal_700"
+    android:background="@drawable/back"
     tools:context=".auth.SigningActivity">
 
 
@@ -23,7 +23,7 @@
         android:layout_margin="12dp"
         android:layout_width="350dp"
         android:padding="15dp"
-        android:background="@drawable/oval_btn"
+        android:background="@drawable/solid_btn"
         android:layout_height="wrap_content"
         android:textColor="@android:color/darker_gray"
         android:hint="Смс - код"/>
@@ -33,7 +33,7 @@
     android:layout_margin="12dp"
     android:layout_width="350dp"
         android:padding="15dp"
-        android:background="@drawable/oval_btn"
+        android:background="@drawable/solid_btn"
     android:layout_height="wrap_content"
     android:textColor="@android:color/darker_gray"
     android:hint="Номер телефона"/>

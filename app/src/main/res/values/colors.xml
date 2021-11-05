@@ -11,5 +11,6 @@
     <color name="start">#CDDC39</color>
     <color name="center">#8BC34A</color>
     <color name="end">#E91E63</color>
+    <color name="login">#CDCBCC</color>
 
 </resources>

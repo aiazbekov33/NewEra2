@@ -1,6 +1,7 @@
 package com.example.newera.ui.gallery;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,6 +59,7 @@ public class GalleryFragment extends Fragment {
                         String eMail = (String) user.get(Constants.EMAIL_MAP);
                         binding.helloTv.setText(eMail);
                         binding.userNameTv.setText(name);
+                        Log.e("anime", "onComplete: " + name);
                     }
                 }
             }

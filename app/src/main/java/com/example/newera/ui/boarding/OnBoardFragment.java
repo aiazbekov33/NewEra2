@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.newera.MainActivity;
 import com.example.newera.R;
+import com.example.newera.databinding.ActivityBoardBinding;
 import com.example.newera.databinding.FragmentOnBoardBinding;
 import com.example.newera.utils.Constants;
 
@@ -50,6 +51,7 @@ public class OnBoardFragment extends Fragment {
                         public void onClick(View view) {
                             Animation logoMoveAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.baunce_animation);
                             binding.skipBtn.startAnimation(logoMoveAnimation);
+
                         }
                     });
                     break;

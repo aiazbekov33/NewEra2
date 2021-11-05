@@ -39,5 +39,10 @@
         android:name="com.example.newera.ui.setting.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/successAuth"
+        android:name="com.example.newera.auth.SuccessAuth"
+        android:label="fragment_succes_auth"
+        tools:layout="@layout/activity_success_auth" />
 
 </navigation>

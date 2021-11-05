@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp"
-    android:background="@drawable/backgraund"
-    tools:context="com.example.newera.ui.boarding.OnBoardFragment">
-
-
+    tools:context="com.example.newera.ui.boarding.BoardActivity">
 
     <Button
         android:id="@+id/skip_btn"
@@ -32,21 +28,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/skip_btn" />
 
-    <RelativeLayout
-        android:id="@+id/RL"
-        android:layout_width="413dp"
-        android:layout_height="344dp"
-        android:background="@drawable/ic_wiwi__3_"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/title_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/some_title_about_app"
+        android:text="Добро Пожаловать !"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -58,7 +46,7 @@
         android:id="@+id/description_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/description_about_app"
+        android:text="Рады вас видеть.."
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,20 +80,7 @@
         app:layout_constraintTop_toBottomOf="@id/ghost_start"
         />
 
-    <TextView
-        android:id="@+id/next_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Skip"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="15dp"
-        android:layout_marginRight="30dp"
-        app:layout_constraintRight_toRightOf="parent"
 
- />
     <TextView
         android:id="@+id/ghost_start"
         android:layout_width="wrap_content"
@@ -116,20 +91,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/description_tv"/>
 
-    <TextView
-        android:id="@+id/back_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:text="Back"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="30dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-
- />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
