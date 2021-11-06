@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.newera.ui.boarding.BoardActivity">
+    tools:context="com.example.newera.ui.boarding.OnBoardFragment">
 
     <Button
         android:id="@+id/skip_btn"
@@ -66,19 +66,19 @@
 
 
 
-    <ImageView
-        android:id="@+id/image_arrow"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/oval_btn2"
-        android:foregroundGravity="center"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:src="@drawable/ic_forw"
-        android:layout_marginTop="40dp"
-        app:layout_constraintTop_toBottomOf="@id/ghost_start"
-        />
+<!--    <ImageView-->
+<!--        android:id="@+id/image_arrow"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/oval_btn2"-->
+<!--        android:foregroundGravity="center"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        android:src="@drawable/ic_forw"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/ghost_start"-->
+<!--        />-->
 
 
     <TextView

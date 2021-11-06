@@ -10,11 +10,14 @@ import com.example.newera.auth.SigningActivity;
 import com.example.newera.databinding.ActivityBoardBinding;
 import com.example.newera.databinding.FragmentOnBoardBinding;
 import com.example.newera.utils.Constants;
+import com.tbuonomo.viewpagerdotsindicator.DotsIndicator;
 
 public class BoardActivity extends AppCompatActivity {
 
     private ActivityBoardBinding binding;
     boolean isShow = false;
+//    DotsIndicator dotsIndicator;
+
 
 
     @Override
@@ -38,5 +41,6 @@ public class BoardActivity extends AppCompatActivity {
 
     private void initViewPager() {
         binding.viewPagerBoard.setAdapter(new BoardAdapter(getSupportFragmentManager()));
+//        dotsIndicator.setViewPager(binding.viewPagerBoard);
     }
 }

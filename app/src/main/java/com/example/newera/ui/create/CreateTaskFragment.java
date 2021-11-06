@@ -72,7 +72,7 @@ public class CreateTaskFragment extends Fragment {
                 TaskModel model = new TaskModel(R.color.purple_200, userTask, userChoosedDate + "/" + time, image);
 //                Bundle bundle = new Bundle();
 //                bundle.putSerializable(Constants.USER_TASK, model);
-                App.getInstance().taskDao().insert(model);
+//                App.getInstance().taskDao().insert(model);
                 db.collection("userCollection").add(model).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
                     @Override
                     public void onComplete(@NonNull Task<DocumentReference> task) {

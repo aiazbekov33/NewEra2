@@ -7,6 +7,10 @@ import java.io.Serializable;
 
 @Entity
 public class TaskModel implements Serializable {
+    public long getId() {
+        return id;
+    }
+
     @PrimaryKey(autoGenerate = true)
     public long id;
     public int color;

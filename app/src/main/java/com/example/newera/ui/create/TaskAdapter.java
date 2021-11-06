@@ -13,10 +13,11 @@ import com.example.newera.databinding.ItemTaskBinding;
 import com.example.newera.inter.OnItemClickListener;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder> {
 
-    ArrayList<TaskModel> list;
+    ArrayList<TaskModel> list = new ArrayList<>();
     ItemTaskBinding binding;
     OnItemClickListener onItemClickListener;
 
@@ -24,8 +25,9 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
         this.onItemClickListener = onItemClickListener;
     }
 
-    public TaskAdapter(ArrayList<TaskModel> list) {
+    public void addList(ArrayList<TaskModel> list) {
         this.list = list;
+        notifyDataSetChanged();
     }
 
     @SuppressLint("NotifyDataSetChanged")
